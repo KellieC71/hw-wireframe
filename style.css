@@ -1,23 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(138, 23, 142);         
+    background: #ebebeb;
+    width: 960px;
+    font-size: 18px;
+    text-align: center;
+}
+header{
+    background: plum;  
+    width: 100%;
+}
+nav{
+    background: plum;
+    width: 100%;
+}
+nav li{
+    list-style: none;
+}
+section{
+    background: plum;
+    width: 55%;
+    float: left;
+    margin-right:5px; 
+    margin-top: 15px; 
+}
+aside{
+    background: plum;
+    width: 35%;
+    float: right;
+    margin-top: 15px; 
 
+}
+footer{
+    background: plum;
+    width: 100%;
+    margin-top: 1000px;
+    text-align: center;
+    height: 40px;
+}
+article{
+    color:white;
+    background: powderblue;
+    width: 100%;
+}
+h1{
+    color: purple;
+    background:pink;
+    text-align: center;
+}
+p{
+    color: antiquewhite;
+    background:purple;
+    text-align: center;
+}
 
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        float: right
-        background-color: #777;
-        width: 50%;
-        font-size: 18px;
-    }
-
-    img{
-        float: left;
-        width: 30%;
-        height: 30%;
-    }
-        
-    #second {
-        width: 50%;
-        float: right;
-        height: 200px;
-        background-color: #ebebeb;
-        color: gray;
-    }
